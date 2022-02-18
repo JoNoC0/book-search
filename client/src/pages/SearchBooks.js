@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Jumbotron, Container, Col, Form, Button, Card, CardColumns } from 'react-bootstrap';
 
 import Auth from '../utils/auth';
-import { saveBook, searchGoogleBooks } from '../utils/API';
+import { searchGoogleBooks } from '../utils/API';
 import { saveBookIds, getSavedBookIds } from '../utils/localStorage';
 
 import { SAVE_BOOK } from '../utils/mutations';
@@ -13,10 +13,11 @@ const SearchBooks = () => {
   const [searchedBooks, setSearchedBooks] = useState([]);
   // create state for holding our search field data
   const [searchInput, setSearchInput] = useState('');
+  const [savedBookIds, setSavedBookIds] = useState(getSavedBookIds());
+  
   const [saveBook, {error}] = useMutation(SAVE_BOOK);
   
   // create state to hold saved bookId values
-  const [savedBookIds, setSavedBookIds] = useState(getSavedBookIds());
 
 
   // set up useEffect hook to save `savedBookIds` list to localStorage on component unmount
@@ -71,8 +72,8 @@ const SearchBooks = () => {
 
     try {
       // const response = await saveBook(bookToSave, token);
-      await saveBook({
-        variables: { input: bookToSave }
+      const { data } = await saveBook({
+        variables: { newBook:{ ...bookToSave } },
       });
 
       // if book successfully saves to user's account, save book id to state
