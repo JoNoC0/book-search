@@ -7,12 +7,12 @@ type Query {
 }
 
 input savedBook {
-    description: String!
-    title: String!
-    bookID: String!
-    image: String!
-    link: String!
-    authors: [String!]
+    description: String
+    title: String
+    bookId: String
+    image: String
+    link: String
+    authors: [String]
 }
 
 type Mutation {
@@ -35,7 +35,7 @@ type Book {
     bookId: String
     authors: [String!]
     description: String
-    title: String!
+    title: String
     image: String
     link: String
 }
