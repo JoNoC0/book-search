@@ -1,68 +1,73 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Google Book Search MERN Stack Challenge
 
-## Available Scripts
+## Summary
 
-In the project directory, you can run:
+Usage of Google Books API to create an Graql API with Apollo Server. MERN stack is implemented to create the app. User can sign up and log in for an account, search for a book of their liking and added to a list of saved books, users can also remove the saved books.
 
-### `yarn start`
+## Tools Used
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* JavaScript
+* Node.js
+* Express
+* React
+* Apollo Server
+* Graphql
+* Mongodb
+* Mongoose
+* Dotenv
+* Heroku
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Snapshot
 
-### `yarn build`
+[![Book Search](images/BookSearchDemo.png)]
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+# Table of Contents 
+- [Google Book Search MERN Stack Challenge](#google-book-search-mern-stack-challenge)
+  - [Summary](#summary)
+  - [Tools Used](#tools-used)
+- [Snapshot](#snapshot)
+- [Table of Contents](#table-of-contents)
+- [Installation & Database SetUp](#installation--database-setup)
+- [Heroku](#heroku)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions?](#questions)
+  - [Please contact me:](#please-contact-me)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Installation & Database SetUp
+* To use this app npm init has to be called to create your package.json file.
+* The following necessary Npm dependencies must be installed to run the application properly: the needed dependencies will be found on the package.json file.
+* To properly install the database you must create at cluster on Mongodb atlas.
+* Run "npm start" for the port to start listening with mongoose.
+* This app is deployed on Heroku
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+# Heroku
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+(https://book-search1126.herokuapp.com/)
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+# License
+![license badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
-### Analyzing the Bundle Size
+# Contributing
+​Contributors: N/A
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+# Tests
+N/A
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# Questions?
+## Please contact me:
+  * [My GitHub Profile](https://github.com/JoNoC0)
+  * [My Github Project Repository](https://github.com/JoNoC0/book-search)
+  * [LinkedIn](https://www.linkedin.com/in/john-jonoc0/)
+  * Email us at: [JNguyeningC0@gmail.com](mailto:JNguyeningCo@gmail.com) with questions or make an issue about this project.
