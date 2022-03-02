@@ -70,4 +70,4 @@ N/A
   * [My GitHub Profile](https://github.com/JoNoC0)
   * [My Github Project Repository](https://github.com/JoNoC0/book-search)
   * [LinkedIn](https://www.linkedin.com/in/john-jonoc0/)
-  * Email us at: [JNguyeningC0@gmail.com](mailto:JNguyeningCo@gmail.com) with questions or make an issue about this project.
+  * Email us at: [JNguyeningCo@gmail.com](mailto:JNguyeningCo@gmail.com) with questions or make an issue about this project.
