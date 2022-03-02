@@ -2,7 +2,7 @@
 
 ## Summary
 
-Usage of Google Books API to create an Graql API with Apollo Server. MERN stack is implemented to create the app. User can sign up and log in for an account, search for a book of their liking and added to a list of saved books, users can also remove the saved books.
+This is a full stack e-commerce web application that was built using REACT. Application was migrated from REACT global state to Redux state.
 
 ## Tools Used
 
@@ -21,7 +21,7 @@ Usage of Google Books API to create an Graql API with Apollo Server. MERN stack 
 
 # Snapshot
 
-[![Book Search](images/BookSearchDemo.png)]
+![Book Search](images/BookSearchDemo.png)
 
 
 
